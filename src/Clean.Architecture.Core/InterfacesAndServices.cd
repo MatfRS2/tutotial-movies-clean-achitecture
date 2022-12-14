@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Clean.Architecture.Core.Services.DeleteContributorService">
+    <Position X="4.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DeleteContributorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clean.Architecture.Core.Services.ToDoItemSearchService">
+    <Position X="1" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Services\ToDoItemSearchService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Clean.Architecture.Core.Interfaces.IDeleteContributorService">
+    <Position X="4.75" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDeleteContributorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Clean.Architecture.Core.Interfaces.IEmailSender">
+    <Position X="8" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IEmailSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Clean.Architecture.Core.Interfaces.IToDoItemSearchService">
+    <Position X="0.75" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Interfaces\IToDoItemSearchService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

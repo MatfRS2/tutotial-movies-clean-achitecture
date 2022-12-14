@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Clean.Architecture.Core.ProjectAggregate.Project" Collapsed="true">
+    <Position X="8" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAEAAAAAAQAgBAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ProjectAggregate\Project.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Clean.Architecture.Core.ProjectAggregate.ToDoItem" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAAAgAEAEAAQAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectAggregate\ToDoItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clean.Architecture.Core.ProjectAggregate.Events.ContributorAddedToItemEvent">
+    <Position X="0.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectAggregate\Events\ContributorAddedToItemEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Clean.Architecture.Core.ProjectAggregate.Events.NewItemAddedEvent">
+    <Position X="10.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ProjectAggregate\Events\NewItemAddedEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Project" />
+      <Property Name="NewItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Clean.Architecture.Core.ProjectAggregate.Events.ToDoItemCompletedEvent">
+    <Position X="5.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectAggregate\Events\ToDoItemCompletedEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CompletedItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Clean.Architecture.SharedKernel.DomainEventBase" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Clean.Architecture.Core.ContributorAggregate.Contributor" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ContributorAggregate\Contributor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
