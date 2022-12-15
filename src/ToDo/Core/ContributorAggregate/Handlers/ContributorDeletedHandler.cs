@@ -2,8 +2,9 @@
 using ToDo.SharedKernel.Interfaces;
 using ToDo.Core.ProjectAggregate.Specifications;
 using MediatR;
+using ToDo.Core.ProjectAggregate;
 
-namespace ToDo.Core.ProjectAggregate.Handlers;
+namespace ToDo.Core.ContributorAggregate.Handlers;
 
 public class ContributorDeletedHandler : INotificationHandler<ContributorDeletedEvent>
 {
