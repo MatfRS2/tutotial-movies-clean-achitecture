@@ -1,6 +1,6 @@
 ﻿using Movies.SharedKernel.DomainEvents;
 
-namespace Movies.Domain.ToDoContext.ContributorAggregate.DomainEvents;
+namespace Movies.Domain.PretplataContext.DomainEvents;
 
 public class KorisnikObrisanEvent : DomainEventBase
 {
@@ -10,4 +10,5 @@ public class KorisnikObrisanEvent : DomainEventBase
   {
     KorisnikId = korisnikId;
   }
+
 }
