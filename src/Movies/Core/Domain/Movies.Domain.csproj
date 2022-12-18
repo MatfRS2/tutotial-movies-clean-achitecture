@@ -21,7 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ProjectAggregate\Handlers\" />
+    <Folder Include="PretplataContext\PretplataAgregate\" />
+    <Folder Include="PretplataContext\PaketAgregate\" />
+    <Folder Include="PripremaContext\FilmAgregate\DomainEventHandlers\" />
+    <Folder Include="PripremaContext\FilmAgregate\DomainEvents\" />
+    <Folder Include="PripremaContext\PaketAgregate\" />
   </ItemGroup>
 
 </Project>

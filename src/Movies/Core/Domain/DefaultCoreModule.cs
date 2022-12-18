@@ -1,6 +1,6 @@
 ﻿using Autofac;
-using Movies.Core.Interfaces;
-using Movies.Core.Services;
+using Movies.Domain.ToDoContext.Interfaces;
+using Movies.Domain.ToDoContext.Services;
 
 namespace Movies.Core;
 
