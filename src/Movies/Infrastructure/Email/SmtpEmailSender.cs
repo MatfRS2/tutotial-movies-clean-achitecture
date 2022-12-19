@@ -2,7 +2,7 @@
 using Movies.Domain.PripremaContext.Services;
 using Microsoft.Extensions.Logging;
 
-namespace Movies.Infrastructure;
+namespace Movies.Infrastructure.Email;
 
 public class SmtpEmailSender : IEmailSender
 {

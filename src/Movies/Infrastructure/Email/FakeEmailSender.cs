@@ -1,6 +1,6 @@
 ﻿using Movies.Domain.PripremaContext.Services;
 
-namespace Movies.Infrastructure;
+namespace Movies.Infrastructure.Email;
 
 public class FakeEmailSender : IEmailSender
 {

@@ -3,7 +3,7 @@ using Ardalis.GuardClauses;
 using Movies.SharedKernel;
 using Movies.SharedKernel.DomainObjects;
 
-namespace Movies.Domain.PretplataContext.KorisnikAggregate;
+namespace Movies.Domain.PretplataContext.KorisnikAgregate;
 
 public class Korisnik : EntityBase, IAggregateRoot
 {

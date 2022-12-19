@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Core\Domain\Movies.Domain.csproj" />
     <ProjectReference Include="..\Core\SharedKernel\Movies.SharedKernel.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
 </Project>

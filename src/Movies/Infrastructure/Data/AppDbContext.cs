@@ -1,5 +1,5 @@
 ﻿using System.Reflection;
-using Movies.Domain.PretplataContext.KorisnikAggregate;
+using Movies.Domain.PretplataContext.KorisnikAgregate;
 using Movies.Domain.PretplataContext.PaketAgregate;
 using Movies.Domain.PripremaContext.FilmAgregate;
 using Movies.Domain.PripremaContext.PaketAgregate;
@@ -23,7 +23,7 @@ public class AppDbContext : DbContext
 
   public DbSet<Korisnik> Korisnici => Set<Korisnik>();
   public DbSet<PretplataStatus> PretplataStatusi => Set<PretplataStatus>();
-  public DbSet<Pretplata> Pretplate => Set<Pretplata>();
+  public DbSet<PretplataKorisnikPaket> Pretplate => Set<PretplataKorisnikPaket>();
   public DbSet<Movies.Domain.PretplataContext.PaketAgregate.Paket> PaketiIzPretplate => 
     Set<Domain.PretplataContext.PaketAgregate.Paket>();
 

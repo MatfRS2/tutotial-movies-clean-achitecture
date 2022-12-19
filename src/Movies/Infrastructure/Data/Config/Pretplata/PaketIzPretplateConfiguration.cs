@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;
 
-namespace Movies.Infrastructure.Data.Config;
+namespace Movies.Infrastructure.Data.Config.Pretplata;
 
 public class PaketIzPretplateConfiguration : IEntityTypeConfiguration<Paket>
 {
@@ -12,7 +12,7 @@ public class PaketIzPretplateConfiguration : IEntityTypeConfiguration<Paket>
     builder.HasKey(p => p.Id);
     builder.Property(z => z.Id)
             .HasColumnName("Id")
-            .IsRequired(); 
+            .IsRequired();
     builder.Property(p => p.Naziv)
           .HasMaxLength(250)
           .IsRequired();

@@ -8,6 +8,7 @@ using MediatR;
 using MediatR.Pipeline;
 using Module = Autofac.Module;
 using Movies.Domain.PripremaContext.Services;
+using Movies.Infrastructure.Email;
 
 namespace Movies.Infrastructure;
 

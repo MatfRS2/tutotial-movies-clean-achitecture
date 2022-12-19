@@ -16,8 +16,8 @@ public class Paket : EntityBase, IAggregateRoot
 
   public DateTime DatumFormiranja { get; set; }
 
-  private List<Pretplata> _pretplate = new List<Pretplata>();
-  public IEnumerable<Pretplata> Pretplate => _pretplate.AsReadOnly();
+  private List<PretplataKorisnikPaket> _pretplate = new List<PretplataKorisnikPaket>();
+  public IEnumerable<PretplataKorisnikPaket> Pretplate => _pretplate.AsReadOnly();
 
   public Paket(string naziv, string opis, DateTime datumFormiranja)
   {
@@ -26,7 +26,7 @@ public class Paket : EntityBase, IAggregateRoot
     DatumFormiranja = Guard.Against.Null(datumFormiranja, nameof(datumFormiranja));
   }
 
-  public void DodajPretplatu(Pretplata novaPretplata)
+  public void DodajPretplatu(PretplataKorisnikPaket novaPretplata)
   {
     Guard.Against.Null(novaPretplata, nameof(novaPretplata));
     if (_pretplate.Contains(novaPretplata))
