@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ardalis.Specification.Specification&lt;T&gt;">
+    <Position X="3" Y="0.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.Domain.ToDoContext.ProjectAggregate.Specifications.IncompleteItemsSearchSpec" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToDoContext\ProjectAggregate\Specifications\IncompleteItemsSearchSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.Domain.ToDoContext.ProjectAggregate.Specifications.IncompleteItemsSpec" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToDoContext\ProjectAggregate\Specifications\IncompleteItemsSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.Domain.ToDoContext.ProjectAggregate.Specifications.ProjectByIdWithItemsSpec" Collapsed="true">
+    <Position X="7.25" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToDoContext\ProjectAggregate\Specifications\ProjectByIdWithItemsSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.Domain.ToDoContext.ProjectAggregate.Specifications.ProjectsWithItemsByContributorIdSpec" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToDoContext\ProjectAggregate\Specifications\ProjectsWithItemsByContributorId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Ardalis.Specification.ISpecification&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

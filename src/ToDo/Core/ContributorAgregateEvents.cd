@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ToDo.Core.ContributorAggregate.Events.ContributorDeletedEvent">
+    <Position X="4.25" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContributorAggregate\Events\ContributorDeletedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToDo.SharedKernel.DomainEventBase">
+    <Position X="4.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
