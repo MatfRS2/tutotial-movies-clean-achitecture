@@ -2,7 +2,7 @@
 
 namespace Movies.Domain.ToDoContext.ProjectAggregate.Specifications;
 
-public class IncompleteItemsSearchSpec : Specification<ToDoItem>
+public class IncompleteItemsSearchSpec : Specification<ToDoItem>, ISingleResultSpecification
 {
   public IncompleteItemsSearchSpec(string searchString)
   {

@@ -2,7 +2,7 @@
 
 namespace Movies.Domain.ToDoContext.ProjectAggregate.Specifications;
 
-public class IncompleteItemsSpec : Specification<ToDoItem>
+public class IncompleteItemsSpec : Specification<ToDoItem>, ISingleResultSpecification
 {
   public IncompleteItemsSpec()
   {
