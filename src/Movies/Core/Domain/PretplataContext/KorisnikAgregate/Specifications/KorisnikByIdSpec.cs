@@ -1,5 +1,5 @@
 ﻿using Ardalis.Specification;
-using Movies.Domain.PretplataContext.KorisnikAggregate;
+using Movies.Domain.PretplataContext.KorisnikAgregate;
 
 namespace Movies.Domain.ToDoContext.ContributorAggregate.Specifications;
 

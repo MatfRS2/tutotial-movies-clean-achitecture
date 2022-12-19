@@ -13,11 +13,11 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Movies.Domain.PretplataContext.PaketAgregate.Pretplata">
-    <Position X="2.75" Y="3.5" Width="1.75" />
+  <Class Name="Movies.Domain.PretplataContext.PaketAgregate.PretplataKorisnikPaket">
+    <Position X="2.75" Y="3.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAAAAAAAAIAAAAAAAABAAEAAAEAAAA=</HashCode>
-      <FileName>PretplataContext\PaketAgregate\Pretplata.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAACBAAEAAAEAAAA=</HashCode>
+      <FileName>PretplataContext\PaketAgregate\PretplataKorisnikPaket.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Movies.Domain.PretplataContext.PaketAgregate.PretplataStatus">

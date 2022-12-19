@@ -1,12 +1,12 @@
 ﻿using Ardalis.GuardClauses;
-using Movies.Domain.PretplataContext.KorisnikAggregate;
+using Movies.Domain.PretplataContext.KorisnikAgregate;
 using Movies.Domain.PripremaContext.PaketAgregate;
 using Movies.SharedKernel.DomainObjects;
 
 namespace Movies.Domain.PretplataContext.PaketAgregate;
-public class Pretplata : EntityBase
+public class PretplataKorisnikPaket : EntityBase
 {
-  public PretplataStatus Status { get; private set; }
+  public PretplataStatus PretplataStatus { get; private set; }
 
   public decimal Iznos { get; private set; }
 
@@ -17,10 +17,10 @@ public class Pretplata : EntityBase
   public Paket Paket { get; private set; }
 
   
-  protected internal Pretplata(PretplataStatus status, decimal iznos, DateTime datumIsteka, Korisnik korisnik,
+  protected internal PretplataKorisnikPaket(PretplataStatus status, decimal iznos, DateTime datumIsteka, Korisnik korisnik,
     Paket paket)
   {
-    Status = Guard.Against.Null(status, nameof(status));
+    PretplataStatus = Guard.Against.Null(status, nameof(status));
     Iznos = iznos;
     DatumIsteka = datumIsteka;
     Korisnik = Guard.Against.Null(korisnik, nameof(korisnik));
