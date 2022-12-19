@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Paket Details";
+}
+@model Movies.Web.ViewModels.PaketViewModel
+<h2>Paket (MVC View)</h2>
+
+<h3>Name: @Model?.Naziv</h3>
+
+<b>Items:</b>
+
+<ul>
+    @if (Model?.Filmovi != null)
+    {
+        @foreach (var item in Model.Filmovi)
+        {
+            <li>@item.Naslov<br/>@item.Ulozeno</li>
+        }
+    }
+</ul>

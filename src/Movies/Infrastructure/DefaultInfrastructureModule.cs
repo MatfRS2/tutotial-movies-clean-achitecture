@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using Autofac;
-using Movies.Domain.PretplataContext.PaketAgregate;
+using Movies.Domain.PretplataContext.PaketAggregate;
 using Movies.Infrastructure.Data;
 using Movies.SharedKernel.DomainEvents;
 using Movies.SharedKernel.Repositories;

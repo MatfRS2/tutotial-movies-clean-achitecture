@@ -2,8 +2,10 @@
 using Movies.SharedKernel.Repositories;
 using MediatR;
 using Movies.Domain.PripremaContext.Services;
-using Movies.Domain.PripremaContext.FilmAgregate;
+using Movies.Domain.PripremaContext.FilmAggregate;
 using Movies.Domain.PripremaContext.DomainEvents;
+
+namespace Movies.Domain.PripremaContext.Services;
 
 public class ObrisiFilmService : IObrisiFilmService
 {

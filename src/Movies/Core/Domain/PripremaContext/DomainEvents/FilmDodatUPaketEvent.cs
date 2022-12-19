@@ -1,5 +1,5 @@
-﻿using Movies.Domain.PripremaContext.FilmAgregate;
-using Movies.Domain.PripremaContext.PaketAgregate;
+﻿using Movies.Domain.PripremaContext.FilmAggregate;
+using Movies.Domain.PripremaContext.PaketAggregate;
 using Movies.SharedKernel.DomainEvents;
 
 namespace Movies.Domain.PripremaContext.DomainEvents;

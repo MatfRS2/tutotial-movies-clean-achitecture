@@ -1,8 +1,8 @@
-﻿using Movies.Domain.PretplataContext.PaketAgregate;
+﻿using Movies.Domain.PretplataContext.PaketAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;
-using Movies.Domain.PretplataContext.KorisnikAgregate;
+using Movies.Domain.PretplataContext.KorisnikAggregate;
 
 namespace Movies.Infrastructure.Data.Config.Priprema;
 

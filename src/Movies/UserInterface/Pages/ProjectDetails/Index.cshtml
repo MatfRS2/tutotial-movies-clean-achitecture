@@ -1,0 +1,33 @@
+﻿@page "{PaketId}"
+@model Movies.Web.Pages.PaketDetails.IndexModel
+
+@{
+    ViewData["Title"] = "Paket Details (Razor Page)";
+}
+
+@if (!String.IsNullOrEmpty(Model.Message))
+{
+    <h2>@Model.Message</h2>
+}
+else
+{
+
+<h2>Paket (Razor Page)</h2>
+
+<h3>Name: @Model.Paket?.Naziv</h3>
+
+<b>Items:</b>
+
+    <ul>
+        @if (Model.Paket != null)
+        {
+            @foreach (var item in Model.Paket.Filmovi)
+            {
+                <li>
+                    @item.Naslov
+                    <br/>@item.Ulozeno
+                </li>
+            }
+        }
+    </ul>
+}

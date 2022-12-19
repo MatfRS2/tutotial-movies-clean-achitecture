@@ -32,11 +32,11 @@
       <FileName>PripremaContext\DomainEvents\FilmUklonjenIzPaketaEvent.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Movies.Domain.PripremaContext.PaketAgregate.FilmObrisanHandler">
+  <Class Name="Movies.Domain.PripremaContext.PaketAggregate.FilmObrisanHandler">
     <Position X="2.25" Y="5.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
-      <FileName>PripremaContext\PaketAgregate\DomainEventHandlers\FilmObrisanHandler.cs</FileName>
+      <FileName>PripremaContext\PaketAggregate\DomainEventHandlers\FilmObrisanHandler.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>

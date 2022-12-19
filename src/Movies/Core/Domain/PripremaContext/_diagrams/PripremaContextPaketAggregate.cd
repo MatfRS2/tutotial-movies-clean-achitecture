@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ardalis.Specification.Specification&lt;T&gt;" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.SharedKernel.DomainObjects.EntityBase" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Movies.Domain.PripremaContext.PaketAggregate.Specifications.PaketiSaFilmovimaPoFilmIdSpec" Collapsed="true">
+    <Position X="7.25" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PripremaContext\PaketAggregate\Specifications\PaketiSaFilmovimaPoFilmIdSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Movies.Domain.PripremaContext.PaketAggregate.FilmPaket">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>PripremaContext\PaketAggregate\FilmPaket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movies.Domain.PripremaContext.PaketAggregate.Paket">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAABAAAAAAAAAAABAQAQAgAAAAQACA=</HashCode>
+      <FileName>PripremaContext\PaketAggregate\Paket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Filmovi" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_filmovi" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="System.Collections.Generic.IEnumerable&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,4 +1,4 @@
-﻿using Movies.Domain.PretplataContext.KorisnikAgregate;
+﻿using Movies.Domain.PretplataContext.KorisnikAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;

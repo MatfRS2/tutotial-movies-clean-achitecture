@@ -9,5 +9,7 @@ public class DefaultCoreModule : Module
   {
     builder.RegisterType<ObrisiFilmService>()
         .As<IObrisiFilmService>().InstancePerLifetimeScope();
+    builder.RegisterType<PretragaPaketiFilmoviService>()
+        .As<IPretragaPaketiFilmoviService>().InstancePerLifetimeScope();
   }
 }

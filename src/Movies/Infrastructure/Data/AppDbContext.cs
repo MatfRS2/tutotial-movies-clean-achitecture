@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using Movies.Domain.PretplataContext.KorisnikAgregate;
-using Movies.Domain.PretplataContext.PaketAgregate;
-using Movies.Domain.PripremaContext.FilmAgregate;
-using Movies.Domain.PripremaContext.PaketAgregate;
+using Movies.Domain.PretplataContext.KorisnikAggregate;
+using Movies.Domain.PretplataContext.PaketAggregate;
+using Movies.Domain.PripremaContext.FilmAggregate;
+using Movies.Domain.PripremaContext.PaketAggregate;
 using Movies.SharedKernel.DomainEvents;
 using Movies.SharedKernel.DomainObjects;
 using Movies.SharedKernel.Repositories;
@@ -24,14 +24,14 @@ public class AppDbContext : DbContext
   public DbSet<Korisnik> Korisnici => Set<Korisnik>();
   public DbSet<PretplataStatus> PretplataStatusi => Set<PretplataStatus>();
   public DbSet<PretplataKorisnikPaket> Pretplate => Set<PretplataKorisnikPaket>();
-  public DbSet<Movies.Domain.PretplataContext.PaketAgregate.Paket> PaketiIzPretplate => 
-    Set<Domain.PretplataContext.PaketAgregate.Paket>();
+  public DbSet<Movies.Domain.PretplataContext.PaketAggregate.Paket> PaketiIzPretplate => 
+    Set<Domain.PretplataContext.PaketAggregate.Paket>();
 
   public DbSet<Zanr> Zanrovi => Set<Zanr>();
   public DbSet<Film> Filmovi => Set<Film>();
   public DbSet<FilmPaket> FilmoviPaketi => Set<FilmPaket>();
-  public DbSet<Movies.Domain.PripremaContext.PaketAgregate.Paket> PaketiIzPripreme =>
-    Set<Movies.Domain.PripremaContext.PaketAgregate.Paket>();
+  public DbSet<Movies.Domain.PripremaContext.PaketAggregate.Paket> PaketiIzPripreme =>
+    Set<Movies.Domain.PripremaContext.PaketAggregate.Paket>();
 
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)

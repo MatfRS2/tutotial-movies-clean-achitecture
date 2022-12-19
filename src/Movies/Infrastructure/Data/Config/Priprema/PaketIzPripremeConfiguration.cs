@@ -1,4 +1,4 @@
-﻿using Movies.Domain.PripremaContext.PaketAgregate;
+﻿using Movies.Domain.PripremaContext.PaketAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;

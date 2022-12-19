@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PretplataContext\KorisnikAgregate\DomainEventHandlers\" />
-    <Folder Include="PripremaContext\FilmAgregate\DomainEventHandlers\" />
+    <Folder Include="PretplataContext\KorisnikAggregate\DomainEventHandlers\" />
+    <Folder Include="PripremaContext\FilmAggregate\DomainEventHandlers\" />
   </ItemGroup>
 
 </Project>

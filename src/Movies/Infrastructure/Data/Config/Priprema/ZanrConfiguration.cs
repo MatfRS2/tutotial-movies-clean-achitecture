@@ -1,4 +1,4 @@
-﻿using Movies.Domain.PripremaContext.FilmAgregate;
+﻿using Movies.Domain.PripremaContext.FilmAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;
