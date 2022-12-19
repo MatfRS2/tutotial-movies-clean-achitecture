@@ -1,5 +1,5 @@
 ﻿using Ardalis.GuardClauses;
-using Movies.Domain.ToDoContext.ProjectAggregate.DomainEvents;
+using Movies.Domain.ToDoContext.DomainEvents;
 using Movies.SharedKernel.DomainObjects;
 using Movies.SharedKernel.Repositories;
 

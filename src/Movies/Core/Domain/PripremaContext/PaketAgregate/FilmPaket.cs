@@ -3,7 +3,7 @@ using Ardalis.GuardClauses;
 using Movies.SharedKernel;
 using Movies.SharedKernel.DomainObjects;
 
-namespace Movies.Domain.PripremaContext.FilmAgregate;
+namespace Movies.Domain.PripremaContext.PaketAgregate;
 
 public class FilmPaket : EntityBase
 {
@@ -16,5 +16,6 @@ public class FilmPaket : EntityBase
     FilmId = filmId;
     PaketId = paketId;
   }
+
 }
 

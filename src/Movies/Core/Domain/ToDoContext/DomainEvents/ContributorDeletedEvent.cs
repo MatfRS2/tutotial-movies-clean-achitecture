@@ -1,6 +1,6 @@
 ﻿using Movies.SharedKernel.DomainEvents;
 
-namespace Movies.Domain.ToDoContext.ContributorAggregate.DomainEvents;
+namespace Movies.Domain.ToDoContext.DomainEvents;
 
 public class ContributorDeletedEvent : DomainEventBase
 {

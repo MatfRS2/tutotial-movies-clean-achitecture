@@ -1,10 +1,12 @@
 ﻿using System.Xml.Linq;
 using Ardalis.GuardClauses;
 using Movies.Domain.PripremaContext.DomainEvents;
+using Movies.Domain.PripremaContext.FilmAgregate;
+using Movies.Domain.PripremaContext.PaketAgregate.Specifications;
 using Movies.SharedKernel;
 using Movies.SharedKernel.DomainObjects;
 
-namespace Movies.Domain.PripremaContext.FilmAgregate;
+namespace Movies.Domain.PripremaContext.PaketAgregate;
 
 public class Paket : EntityBase, IAggregateRoot
 {
@@ -23,6 +25,7 @@ public class Paket : EntityBase, IAggregateRoot
     Opis = Guard.Against.NullOrEmpty(opis, nameof(opis));
     DatumFormiranja = Guard.Against.Null(datumFormiranja, nameof(datumFormiranja));
   }
+
   public void DodajFilm(Film noviFilm)
   {
     Guard.Against.Null(noviFilm, nameof(noviFilm));
@@ -30,24 +33,27 @@ public class Paket : EntityBase, IAggregateRoot
     if (_filmovi.Contains(newItem))
       return;
     _filmovi.Add(newItem);
-    var filmDodatUPaketEvent = new FilmDodatUPaketEvent(this, noviFilm);
+    var filmDodatUPaketEvent = new FilmDodatUPaketEvent(this.Id, noviFilm.Id);
     base.RegisterDomainEvent(filmDodatUPaketEvent);
   }
 
-  public void ukloniFilm(Film uklanjaSeFilm)
+  public void UkloniFilmPoId(int filmIdZaUklanjanje)
   {
-    Guard.Against.Null(uklanjaSeFilm, nameof(uklanjaSeFilm));
-    var toDeleteItem = new FilmPaket(uklanjaSeFilm.Id, Id);
+    var toDeleteItem = new FilmPaket(filmIdZaUklanjanje, Id);
     if (!_filmovi.Contains(toDeleteItem))
       return;
     _filmovi.Remove(toDeleteItem);
-    var filmUklonjenIzPaketaEvent = new FilmUklonjenIzPaketaEvent(this, uklanjaSeFilm);
+    var filmUklonjenIzPaketaEvent = new FilmUklonjenIzPaketaEvent(this.Id, filmIdZaUklanjanje);
     base.RegisterDomainEvent(filmUklonjenIzPaketaEvent);
   }
-
   public void IzmeniNaziv(string noviNaziv)
   {
     Naziv = Guard.Against.NullOrEmpty(noviNaziv, nameof(noviNaziv));
+  }
+
+  public void IzmeniOpis(string noviOpis)
+  {
+    Opis = Guard.Against.NullOrEmpty(noviOpis, nameof(noviOpis));
   }
 }
 

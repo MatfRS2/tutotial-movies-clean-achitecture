@@ -1,7 +1,7 @@
 ﻿using Movies.SharedKernel.Repositories;
 using Movies.Domain.ToDoContext.ProjectAggregate.Specifications;
 using MediatR;
-using Movies.Domain.ToDoContext.ContributorAggregate.DomainEvents;
+using Movies.Domain.ToDoContext.DomainEvents;
 
 namespace Movies.Domain.ToDoContext.ProjectAggregate.DomainEventHandlers;
 

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Movies.SharedKernel.DomainEvents.DomainEventBase">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Movies.Domain.PretplataContext.DomainEvents.KorisnikDodatEvent">
+    <Position X="5.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PretplataContext\DomainEvents\KorisnikDodatEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movies.Domain.PretplataContext.DomainEvents.KorisnikObrisanEvent">
+    <Position X="3.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PretplataContext\DomainEvents\KorisnikObrisanEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movies.Domain.PretplataContext.DomainEvents.PretplataDodataUPaketEvent">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PretplataContext\DomainEvents\PretplataDodataUPaketEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movies.Domain.PretplataContext.DomainEvents.PretplataUklonjenaIzPaketaEvent">
+    <Position X="7.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PretplataContext\DomainEvents\PretplataUklonjenaIzPaketaEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

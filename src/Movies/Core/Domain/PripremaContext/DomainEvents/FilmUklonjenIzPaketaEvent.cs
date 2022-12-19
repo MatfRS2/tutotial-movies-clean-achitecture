@@ -1,17 +1,18 @@
 ﻿using Movies.Domain.PripremaContext.FilmAgregate;
+using Movies.Domain.PripremaContext.PaketAgregate;
 using Movies.SharedKernel.DomainEvents;
 
 namespace Movies.Domain.PripremaContext.DomainEvents;
 
 public class FilmUklonjenIzPaketaEvent : DomainEventBase
 {
-  public Paket Paket { get; set; }
-  public Film Film { get; set; }
+  public int PaketId { get; set; }
+  public int FilmId { get; set; }
 
-  public FilmUklonjenIzPaketaEvent(Paket paket, Film film)
+  public FilmUklonjenIzPaketaEvent(int paketId, int filmId)
   {
-    Paket = paket;
-    Film = film;
+    PaketId = paketId;
+    FilmId = filmId;
   }
 
 }

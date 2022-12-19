@@ -3,11 +3,11 @@ using Movies.Domain.PripremaContext.FilmAgregate;
 
 namespace Movies.Domain.ToDoContext.ContributorAggregate.Specifications;
 
-public class ZanrByIdSpec : Specification<Zanr>, ISingleResultSpecification
+public class FilmPoIdSpec : Specification<Film>, ISingleResultSpecification
 {
-  public ZanrByIdSpec(int zanrId)
+  public FilmPoIdSpec(int filmId)
   {
     Query
-        .Where(tuple => tuple.Id == zanrId);
+        .Where(item => item.Id == filmId);
   }
 }

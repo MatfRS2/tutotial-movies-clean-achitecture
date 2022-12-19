@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 using MediatR;
-using Movies.Domain.ToDoContext.ProjectAggregate.DomainEvents;
+using Movies.Domain.ToDoContext.DomainEvents;
 using Movies.Domain.ToDoContext.Interfaces;
 
 namespace Movies.Domain.ToDoContext.ProjectAggregate.DomainHandlers;

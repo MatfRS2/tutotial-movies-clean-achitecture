@@ -1,5 +1,5 @@
 ﻿using Ardalis.Result;
-using Movies.Domain.ToDoContext.ContributorAggregate.DomainEvents;
+using Movies.Domain.ToDoContext.DomainEvents;
 using Movies.SharedKernel.Repositories;
 using MediatR;
 using Movies.Domain.ToDoContext.ContributorAggregate;

@@ -1,16 +1,17 @@
 ﻿using Movies.Domain.PripremaContext.FilmAgregate;
+using Movies.Domain.PripremaContext.PaketAgregate;
 using Movies.SharedKernel.DomainEvents;
 
 namespace Movies.Domain.PripremaContext.DomainEvents;
 
 public class FilmDodatUPaketEvent : DomainEventBase
 {
-  public Paket Paket { get; set; }
-  public Film Film { get; set; }
+  public int PaketId { get; set; }
+  public int FilmId { get; set; }
 
-  public FilmDodatUPaketEvent(Paket paket, Film film)
+  public FilmDodatUPaketEvent(int paketId, int filmId)
   {
-    Paket = paket;
-    Film = film;
+    PaketId = paketId;
+    FilmId = filmId;
   }
 }
