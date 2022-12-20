@@ -20,7 +20,7 @@ public class Film : EntityBase, IAggregateRoot
     Naslov = Guard.Against.NullOrEmpty(naslov, nameof(naslov));
     DatumPocetkaPrikazivanja = Guard.Against.Null(datumPocetkaPrikazivanja, nameof(datumPocetkaPrikazivanja));
     Ulozeno = ulozeno;
-    Zanr = new Zanr(zanrNaziv);
+    Zanr = new Zanr(Guard.Against.NullOrEmpty(zanrNaziv, nameof(zanrNaziv)));
   }
 
 
